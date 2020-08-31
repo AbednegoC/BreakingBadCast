@@ -3,7 +3,7 @@ import CharacterItems from './CharacterItems'
 import Spinner from '../UI/Spinner'
 
 // Passing in our characters and isLoading as props
-const CharacterGrid = ({ characters, isLoading }) => {
+const CharacterGrid = ({ characters, isLoading, charDeath}) => {
     return isLoading ? (
         <Spinner />
     ) : (
@@ -12,7 +12,6 @@ const CharacterGrid = ({ characters, isLoading }) => {
                     <CharacterItems key={character.char_id} character={character}></CharacterItems>
                 ))}
             </section>
-            
         )
 }
 

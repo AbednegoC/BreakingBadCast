@@ -1,4 +1,4 @@
-// Note: 'rce' tab generates quick components if the extension is installed.
+// Somple component for site's show info. section:
 import React from "react";
 
 const ShowInfo = () => {

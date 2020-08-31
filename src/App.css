@@ -6,30 +6,20 @@
   padding: 0;
 }
 
-html,
 body {
   background: #000 url('img/bg.jpg') no-repeat center center/cover;
   height: 100vh;
-  color: #fff;
+  color: whitesmoke;
   font-family: 'Cormorant Garamond', serif;
 }
 
-
-.container {
+.app {
   max-width: 1100px;
   margin: auto;
   padding: 0 20px;
 }
 
-header {
-  height: 200px;
-}
-
-header img {
-  width: 200px;
-}
-
-.center {
+.Logo {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,14 +30,23 @@ header img {
 }
 
 .warning{
+  position: relative;
   font-size: 18px;
   margin-top: 20px;
   text-align: center;
+  color: green;
+}
+
+header {
+  height: 200px;
+}
+
+header img {
+  width: 200px;
 }
 
 .showInfo{
-  padding: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   /* border: 1px solid whitesmoke; */
   font-size: 18px;
 }
@@ -60,6 +59,7 @@ input[type='text'] {
   border-radius: 5px;
   width: 60%;
   margin: auto;
+  outline: none;
 }
 
 .cards {
